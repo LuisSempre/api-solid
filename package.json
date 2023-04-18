@@ -12,12 +12,18 @@
   "author": "Luis Lucas <luis@semper-ti.com>",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "tsup": "^6.7.0",
-    "tsx": "^3.12.6",
-    "typescript": "^5.0.4"
+    "@rocketseat/eslint-config": "1.2.0",
+    "@types/node": "18.15.11",
+    "@typescript-eslint/eslint-plugin": "5.59.0",
+    "@typescript-eslint/parser": "5.59.0",
+    "eslint": "8.38.0",
+    "tsup": "6.7.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.4"
   },
   "dependencies": {
-    "fastify": "^4.15.0"
+    "dotenv": "16.0.3",
+    "fastify": "4.15.0",
+    "zod": "3.21.4"
   }
 }
